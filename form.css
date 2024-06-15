@@ -6,6 +6,10 @@ body {
     align-items: center;
     min-height: 100vh; /* Ensure content fills viewport height */
     background-color: #f5f5f5; /* Light background color */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
   }
   
   .model-body {
@@ -16,7 +20,16 @@ body {
     display: flex; /* Arrange form elements vertically */
     flex-direction: column; /* Stack elements one below the other */
   }
-  
+  .logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
   .form-title {
     margin-bottom: 20px;
     text-align: center;
